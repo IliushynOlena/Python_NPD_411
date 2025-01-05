@@ -80,7 +80,10 @@ print(1_000_000_000)
 print(10_000 * 7.6/100)
 
 '''
+#print("Result  = ", result)
 
+112 = "hello"
+'''
 name = "Bob"
 a = 10
 a1 = 11
@@ -143,4 +146,15 @@ first_number = int(input("Enter first number : "))
 second_number = float(input("Enter second number : ")) 
 result = first_number + second_number
 print("Result  = ", result)
+'''
+
+number = 1234
+a = number//1000  #1234/1000
+print(a)
+b = number//100%10#1234//100 = 12%10 =2 .... 12/10 = 1.2  1*10 = 10 12 - 10 = 2
+print(b)
+c = number//10%10#1234//10 = 123%10 = 3... 123/10 = 12.3 12*10 = 120 123-120 = 3 
+print(c)
+d = number%10 #1234%10 = 1234/10= 123.4  123*10 = 1230 1234 - 1230 = 4
+print(d)
 
