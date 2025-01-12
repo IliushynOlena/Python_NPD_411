@@ -159,7 +159,7 @@ else:
 # print(f"Your total price : {total} coin")
 
 #if elif else
-day = int (input("Enter number of day [1-7] : "))
+day = int (input("Enter number of day [1-7] : "))#62
 if day == 1:
     print("Monday")
 elif day == 2:
