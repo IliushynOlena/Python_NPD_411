@@ -19,8 +19,8 @@
 # print("Hello")
 # print("Hello")
 
-# def showHello():
-#     print("Hello")
+def showHello():
+    print("Hello")
 
 
 # showHello()
@@ -31,11 +31,11 @@
 # a = 100
 # print(f"a = {a}")
 
-# def sayHello(name):
-#     b = 15
-#     print(f"b = {b}")
-#     print(f"Hello, {name}")
-#     print(f"a = {a}")
+def sayHello(name):
+    b = 15
+    print(f"b = {b}")
+    print(f"Hello, {name}")
+    print(f"a = {a}")
 
 # sayHello("Olena")
 # sayHello("Sasha")
@@ -46,21 +46,21 @@
 # # sayHello(name)
 
 # #1.1
-# # def summa(a,b):
-# #     print(a+b)
+def summa(a,b):
+    print(a+b)
 
-# #1.2   
-# # def summa(a,b):
-# #     res = a + b 
-# #     print(res)
+#1.2   
+def summa(a,b):
+    res = a + b 
+    print(res)
 
-# #1.3
-# # def summa(a,b):
-# #     res = a + b 
-# #     return res
-# ##1.4
-# # def summa(a,b):
-# #     return a + b     
+#1.3
+def summa(a,b):
+    res = a + b 
+    return res
+#1.4
+def summa(a,b):
+    return a + b     
 
 # # print(summa(3,8))
 # # res = summa(1,2)
@@ -83,15 +83,15 @@
 #         return  #return == break
 #     return a / b  
 
-# def calculator(a,b,op):
-#     if op == '+':
-#         return summa(a,b)
-#     if op == '-':
-#         return sub(a,b)
-#     if op == '*':
-#         return multy(a,b)
-#     if op == '/':
-#         return div(a,b)
+def calculator(a,b,op):
+    if op == '+':
+        return summa(a,b)
+    if op == '-':
+        return sub(a,b)
+    if op == '*':
+        return multy(a,b)
+    if op == '/':
+        return div(a,b)
     
 # def getOperation(example):
 #     if example.find('+') != -1:
