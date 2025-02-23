@@ -1,0 +1,1 @@
+{"name": "Mukola", "surname": "Ivanchuk", "lastname": "Petrovuch", "age": 18, "marks": [12, 11, 10, 8, 9, 6, 3, 12], "birthday": "12.05.2008"}
